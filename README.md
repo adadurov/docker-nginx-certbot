@@ -11,6 +11,8 @@ This repository was originally forked from `@henridwyer`, many thanks to him for
 
 # Usage
 
+Build the docker image using `make build`.
+
 Use this image with a `Dockerfile` such as:
 ```Dockerfile
 FROM staticfloat/nginx-certbot
@@ -45,6 +47,8 @@ services:
             - CERTBOT_EMAIL=owner@company.com
   ...
 ```
+
+See `example` directory for the simple sample.
 
 # Changelog
 
